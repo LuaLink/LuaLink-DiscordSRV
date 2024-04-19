@@ -1,0 +1,14 @@
+name: LuaLink-DiscordSRV
+version: "1.0.0"
+authors:
+  - Element4521
+main: xyz.galaxyy.lualink.addons.discordsrv.LuaLinkDiscordSRV
+description: A LuaLink addon that adds DiscordSRV functions.
+api-version: "1.20"
+dependencies:
+  - name: DiscordSRV
+    required: true
+    bootstrap: false
+  - name: LuaLink
+    required: true
+    bootstrap: false
